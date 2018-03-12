@@ -1,0 +1,12 @@
+<!doctype html>
+<title>Mobile review sentiment demo</title>
+<form action="{{ url_for('index_page') }}" method=post>
+    <dl>
+        <dt>Введите/вставьте пример отзыва на мобильный телефон: <br>
+        <dd><textarea name=text rows=7 cols=49>{{ text }}</textarea>
+        <dd><input type=submit value="Оценить">
+    </dl>
+</form>
+
+<br>Mobile review sentiment prediction:<br>
+{{ prediction_message }}
