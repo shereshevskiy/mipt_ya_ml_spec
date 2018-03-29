@@ -15,9 +15,9 @@
 2) Запустите в консоли строку "python path_to_dir/mobilereview_demo.py", где path_to_dir - путь до папки, куда был разархивирован архив.
 3) Дождитесь появления следующих строк:
 
-Preparing classifier
-Classifier is ready
-3.610289335250854 seconds
+Preparing classifier   
+Classifier is ready   
+3.610289335250854 seconds   
  * Running on http://0.0.0.0:80/ (Press CTRL+C to quit)
 
 4) В браузере перейдите по адресу http://127.0.0.1/mobilereview-demo
